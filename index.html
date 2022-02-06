@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form Example</title>
+  <link href=style.css rel="stylesheet" />
+</head>
+
+<body>
+  <form name="register">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label>User Name:</label>
+      <input type="text" name="user name"><br>
+      <label>Password:</label>
+      <input type="password" name="password"><br>
+      <label>E-mail:</label>
+      <input type="email" name="e-mail"><br>
+      <label for="Gender">Gender</label>
+      <select class="Gender:" name="Gender"><br>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Your favourite</legend>
+      <label>Your favourite Editors:</label><br>
+      <input type="radio" name="editors">IntelliJ<br>
+      <input type="radio" name="editors">WebStorm<br>
+      <input type="radio" name="editors">Atom <br>
+      <hr>
+      <label>Yor favourite Browser:</label><br>
+      <input type="radio" name="browser">Chrome<br>
+      <input type="radio" name="browser">Firefox<br>
+      <input type="radio" name="browser">Opera <br>
+      <hr>
+      <label>Your favourite Phone:</label><br>
+      <input type="checkbox" name="phone">Samsung<br>
+      <input type="checkbox" name="phone">LG<br>
+      <input type="checkbox" name="phone">Apple
+
+    </fieldset>
+    <fieldset>
+      <legend>Your Message:</legend>
+      <textarea name="message" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="submit">
+    </fieldset>
+
+  </form>
+
+</body>
+
+</html>
